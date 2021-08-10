@@ -6,4 +6,9 @@ Easily translate text to Morse code and decode Morse code to text with only one 
 
 ## Why this tool?
 - With this [tool](https://github.com/stevemats/Morse_Code_Translator), you can be able to not only translate text to morse code, but also decode morse code to text easily.
-![musa](https://user-images.githubusercontent.com/30528167/128892009-affaf6c0-a8b7-4d41-9c92-c3e135b0a367.PNG)
+
+### Demo Text to Morse Code:
+![musa](![morse2text](https://user-images.githubusercontent.com/30528167/128909188-ef3a2487-a42f-4578-8550-173c07d325f8.PNG))
+
+### Demo Morse code to Text:
+![morse2text](https://user-images.githubusercontent.com/30528167/128908372-a7687232-68c5-4b0c-b4b4-8969b17331f9.PNG)
