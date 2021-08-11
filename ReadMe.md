@@ -19,3 +19,10 @@ Easily translate text to Morse code and decode Morse code to text with only one 
 
 ### Demo Morse code to Text:
 ![morse2text](https://user-images.githubusercontent.com/30528167/128908372-a7687232-68c5-4b0c-b4b4-8969b17331f9.PNG)
+
+## Installation
+```
+git clone https://github.com/stevemats/Morse_Code_Translator
+cd Morse_Code_Translator
+pip install -r requirements.txt
+```
