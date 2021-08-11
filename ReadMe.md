@@ -1,4 +1,4 @@
-# Morse Translator
+# Morse Code Translator
 Easily translate text to Morse code and decode Morse code to text with only one click.
 
 ## What is Morse Code?
@@ -12,7 +12,7 @@ Easily translate text to Morse code and decode Morse code to text with only one 
 - Each dot of dash is followed by the blank period which equals to the dot duration.
 - Space between letters is 3 dots duration.
 - Space between words is 7 dots duration.
-- The most frequently occurring letter has shorter expression than others. (E has only one dot)
+- The most frequently occurring letter has shorter expression than others. 
 
 ### Demo Text to Morse Code:
 ![text2morse](https://user-images.githubusercontent.com/30528167/128909322-57c06d5b-1a48-47a0-9962-a08ae5429e34.PNG)
