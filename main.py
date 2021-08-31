@@ -148,10 +148,10 @@ def play():
 
     for value in text:
         if value == '.':
-            playsound('audio/dot.mp3')
+            playsound('audio\dot.mp3')
             root.after(100)
         elif value == '-':
-            playsound('audio/dash.mp3')
+            playsound('audio\dash.mp3')
             root.after(200)
         elif value == ' ':
             root.after(300)
