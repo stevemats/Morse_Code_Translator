@@ -172,14 +172,14 @@ def show_guide():
 
     guide = tkinter.Toplevel()
     guide.title('Morse Guide')
-    guide.iconbitmap('morse.ico')
+    guide.iconbitmap('images/icons/morse.ico')
     guide.geometry('350x350+' + str(root.winfo_x() + 500) + '+'
                    + str(root.winfo_y()))
     guide.configure(background=root_color)
 
     # Create the image, make a label, and pack
 
-    morse = ImageTk.PhotoImage(Image.open('images/morse_chart.jpg'))
+    morse = ImageTk.PhotoImage(Image.open('images\morse_chart.JPG'))
     label = tkinter.Label(guide, image=morse, bg=frame_color)
     label.pack(padx=10, pady=10, ipadx=5, ipady=5)
 
@@ -190,7 +190,7 @@ def show_guide():
                                   command=hide_guide)
     close_button.pack(padx=10, ipadx=50)
 
-    # Disable the guide button to prevent multiple windows
+    # Disable the guide btn to prevent multiple windows
 
     guide_button['state'] = DISABLED
 
@@ -202,7 +202,7 @@ def hide_guide():
     guide.destroy()
 
 
-# Create morse code dictionaries
+# morse dictionary
 
 english_to_morse = {'a': '.-', 'b': '-...', 'c': '-.-.', 'd': '-..',
             'e': '.', 'f': '..-.', 'g': '--.', 'h': '....', 
