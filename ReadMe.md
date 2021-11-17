@@ -23,6 +23,15 @@ Easily translate text to Morse code and decode Morse code to text with only one 
 ## Installation
 ```
 git clone https://github.com/stevemats/Morse_Code_Translator
+```
+
+```
 cd Morse_Code_Translator
+```
+
+```
 pip install -r requirements.txt
 ```
+
+## To Do
+- App manipulation to prevent deadlocks.
